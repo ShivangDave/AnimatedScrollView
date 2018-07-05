@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class AnimatedScrollView : UIScrollView
+public class AnimatedScrollView : UIScrollView
 {
     var execute = true
     var max_w = CGFloat(0.0)
