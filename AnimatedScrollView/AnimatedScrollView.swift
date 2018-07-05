@@ -18,7 +18,7 @@ public class AnimatedScrollView : UIScrollView
     var max_height_i: CGFloat?
     var max_width_slider_i: CGFloat?
     
-    func animate(_ view: UIView, imageName: String, animated: Bool)
+    public func animate(_ view: UIView, imageName: String, animated: Bool)
     {
         max_width_i = view.frame.width*2.0
         max_width_slider_i = view.frame.width*3.0
@@ -33,7 +33,7 @@ public class AnimatedScrollView : UIScrollView
         }
     }
     
-    func setView(_ image: UIImage)->UIImageView
+    public func setView(_ image: UIImage)->UIImageView
     {
         self.contentSize.width = max_width_slider_i!
         self.contentSize.height = max_height_i!
@@ -48,7 +48,7 @@ public class AnimatedScrollView : UIScrollView
         
     }
     
-    func animateChange(_ x : CGFloat,_ max_width : CGFloat)
+    public func animateChange(_ x : CGFloat,_ max_width : CGFloat)
     {
         var current_x = x
         max_w = max_width
@@ -75,7 +75,7 @@ public class AnimatedScrollView : UIScrollView
         }
     }
     
-    func animate(_ x: CGFloat)
+    public func animate(_ x: CGFloat)
     {
         UIView.animate(withDuration: 25, animations: {
             self.setContentOffset(CGPoint(x: x, y: 0.0), animated: false)
