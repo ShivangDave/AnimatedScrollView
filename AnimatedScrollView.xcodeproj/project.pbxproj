@@ -10,6 +10,8 @@
 		692AD5F520EDD02F00A436C6 /* AnimatedScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692AD5EB20EDD02F00A436C6 /* AnimatedScrollView.framework */; };
 		692AD5FA20EDD02F00A436C6 /* AnimatedScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692AD5F920EDD02F00A436C6 /* AnimatedScrollViewTests.swift */; };
 		692AD5FC20EDD02F00A436C6 /* AnimatedScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 692AD5EE20EDD02F00A436C6 /* AnimatedScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		692AD60620EDD07000A436C6 /* AnimatedScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692AD60520EDD07000A436C6 /* AnimatedScroll.swift */; };
+		692AD60720EDD07000A436C6 /* AnimatedScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692AD60520EDD07000A436C6 /* AnimatedScroll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,7 @@
 		692AD5F420EDD02F00A436C6 /* AnimatedScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		692AD5F920EDD02F00A436C6 /* AnimatedScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedScrollViewTests.swift; sourceTree = "<group>"; };
 		692AD5FB20EDD02F00A436C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		692AD60520EDD07000A436C6 /* AnimatedScroll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedScroll.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				692AD5EE20EDD02F00A436C6 /* AnimatedScrollView.h */,
+				692AD60520EDD07000A436C6 /* AnimatedScroll.swift */,
 				692AD5EF20EDD02F00A436C6 /* Info.plist */,
 			);
 			path = AnimatedScrollView;
@@ -148,6 +152,7 @@
 				TargetAttributes = {
 					692AD5EA20EDD02F00A436C6 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					692AD5F320EDD02F00A436C6 = {
 						CreatedOnToolsVersion = 10.0;
@@ -194,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				692AD60620EDD07000A436C6 /* AnimatedScroll.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				692AD5FA20EDD02F00A436C6 /* AnimatedScrollViewTests.swift in Sources */,
+				692AD60720EDD07000A436C6 /* AnimatedScroll.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +346,7 @@
 		692AD60020EDD02F00A436C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -356,6 +364,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sd.AnimatedScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +373,7 @@
 		692AD60120EDD02F00A436C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -389,6 +399,7 @@
 		692AD60320EDD02F00A436C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DF4JEFRQHJ;
 				INFOPLIST_FILE = AnimatedScrollViewTests/Info.plist;
@@ -407,6 +418,7 @@
 		692AD60420EDD02F00A436C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DF4JEFRQHJ;
 				INFOPLIST_FILE = AnimatedScrollViewTests/Info.plist;
