@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "UIScrollView that smooth scrolls on its own. Pretty Animation!"
 
-  s.homepage     = "http://github.com/ShivangDave/AnimatedScrollView"
+  s.homepage     = "https://github.com/ShivangDave/AnimatedScrollView"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
-  s.source       = { :git => "http://github.com/ShivangDave/AnimatedScrollView.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/ShivangDave/AnimatedScrollView.git", :tag => "#{s.version}" }
   #s.source       = { :path => '.' }
 
 
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "AnimatedScrollView", "AnimatedScrollView/**/*.{h,m,swift}"
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.2' }
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
