@@ -16,20 +16,25 @@ UIScrollView that smooth scrolls on its own. Pretty Animation!
 # CocoaPods
 In project directory:
 
-- pod init
+```
+pod init
+```
 
 Paste following:
 
-- pod 'AnimatedScrollView', :git => 'https://github.com/ShivangDave/AnimatedScrollView.git', :tag => '1.0.2'
+```
+pod 'AnimatedScrollView', :git => 'https://github.com/ShivangDave/AnimatedScrollView.git', :tag => '1.0.2'
+```
 
-Install pod:
+Install:
 
-- pod install
+```
+pod install
+```
 
 # Implementation
-
-e.g.
-
+```
 let scrollView = AnimatedScrollView()
 
 scrollView.animate(self.view, "Image.jpg", true)
+```
