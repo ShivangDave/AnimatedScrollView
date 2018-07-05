@@ -10,8 +10,8 @@
 		692AD5F520EDD02F00A436C6 /* AnimatedScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692AD5EB20EDD02F00A436C6 /* AnimatedScrollView.framework */; };
 		692AD5FA20EDD02F00A436C6 /* AnimatedScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692AD5F920EDD02F00A436C6 /* AnimatedScrollViewTests.swift */; };
 		692AD5FC20EDD02F00A436C6 /* AnimatedScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 692AD5EE20EDD02F00A436C6 /* AnimatedScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		692AD60620EDD07000A436C6 /* AnimatedScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692AD60520EDD07000A436C6 /* AnimatedScroll.swift */; };
-		692AD60720EDD07000A436C6 /* AnimatedScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692AD60520EDD07000A436C6 /* AnimatedScroll.swift */; };
+		692AD60620EDD07000A436C6 /* AnimatedScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692AD60520EDD07000A436C6 /* AnimatedScrollView.swift */; };
+		692AD60720EDD07000A436C6 /* AnimatedScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692AD60520EDD07000A436C6 /* AnimatedScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +31,7 @@
 		692AD5F420EDD02F00A436C6 /* AnimatedScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		692AD5F920EDD02F00A436C6 /* AnimatedScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedScrollViewTests.swift; sourceTree = "<group>"; };
 		692AD5FB20EDD02F00A436C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		692AD60520EDD07000A436C6 /* AnimatedScroll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedScroll.swift; sourceTree = "<group>"; };
+		692AD60520EDD07000A436C6 /* AnimatedScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				692AD5EE20EDD02F00A436C6 /* AnimatedScrollView.h */,
-				692AD60520EDD07000A436C6 /* AnimatedScroll.swift */,
+				692AD60520EDD07000A436C6 /* AnimatedScrollView.swift */,
 				692AD5EF20EDD02F00A436C6 /* Info.plist */,
 			);
 			path = AnimatedScrollView;
@@ -199,7 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				692AD60620EDD07000A436C6 /* AnimatedScroll.swift in Sources */,
+				692AD60620EDD07000A436C6 /* AnimatedScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				692AD5FA20EDD02F00A436C6 /* AnimatedScrollViewTests.swift in Sources */,
-				692AD60720EDD07000A436C6 /* AnimatedScroll.swift in Sources */,
+				692AD60720EDD07000A436C6 /* AnimatedScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
